@@ -1,77 +1,46 @@
 "use client";
 
-import { Col, Row, Button, Card } from "antd";
+import { Col, Row, ConfigProvider } from "antd";
 import "animate.css";
+import AboutMeNote from "../components/aboutMeNote";
+import ContactButton from "../components/contactButton";
+import CourseButton from "../components/courseButton";
+import ProjectButton from "../components/projectButton";
+import PublicationsButton from "../components/publicationButton";
+import SkillButton from "../components/skillButton";
 
 const HomePage: React.FC = () => {
   return (
-    <Row className="layout" gutter={[0, 0]}>
-      <Col className="columns" span={7}>
-        <div className="container">
-          <div>
-            <Button
-              className="buttons animate__animated animate__jackInTheBox"
-              type="primary"
-            >
-              Skills
-            </Button>
-          </div>
-          <div>
-            <Button
-              className="buttons animate__animated animate__jackInTheBox"
-              type="primary"
-            >
-              Projects
-            </Button>
-          </div>
-        </div>
-      </Col>
-      <Col className="columns" span={10}>
-        <Card bordered={false} className="card">
-          <div className="name">Anna Konefał</div>
-          <div className="welcome-note">Welcome to my CV page!</div>
-          <div className="about-me-note">
-            I am in the final year of my PhD in chemistry at the
-            University&nbsp;of&nbsp;Warsaw.
-            <div>
-              From year and a half, I have been self-educating myself to become
-              a Junior&nbsp;JS&nbsp;Frontend&nbsp;Developer.
-            </div>{" "}
-          </div>
-          <div className="instructions-note">
-            Use the buttons to go forward to the desired/particular page.
-          </div>
-        </Card>
-        <div>
-          <Button
-            className="contact-button animate__animated animate__jackInTheBox"
-            type="primary"
-          >
-            Contact
-          </Button>
-        </div>
-      </Col>
-      <Col className="columns" span={7}>
-        <div className="container">
-          <div>
-            <Button
-              className="buttons animate__animated animate__jackInTheBox"
-              type="primary"
-            >
-              Courses
-            </Button>
-          </div>
-          <div>
-            <Button
-              className="buttons animate__animated animate__jackInTheBox"
-              type="primary"
-            >
-              Publications
-            </Button>
-          </div>
-        </div>
-      </Col>
-    </Row>
+    <ConfigProvider
+      theme={{
+        components: {
+          Button: {
+            defaultHoverBg: "#5f9ea099",
+            defaultHoverColor: "#ffffff",
+          },
+        },
+        token: {
+          colorBgContainer: "#5f9ea0cc",
+          colorText: "#ffffff",
+        },
+      }}
+    >
+      <Row className="layout" gutter={[0, 0]}>
+        <Col className="columns" span={7}>
+          <SkillButton />
+          <ProjectButton />
+        </Col>
+        <Col className="about-me-column" span={10}>
+          <AboutMeNote />
+          <ContactButton />
+        </Col>
+
+        <Col className="columns" span={7}>
+          <CourseButton />
+          <PublicationsButton />
+        </Col>
+      </Row>
+    </ConfigProvider>
   );
 };
 
