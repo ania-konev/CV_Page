@@ -16,17 +16,17 @@ const CoursePage: React.FC = () => {
           </p>
           <p className="text-page-route">
             <IoMail className="contact-icon" />
-            <a href="mailto:email@gmail.com" className="email-address">
+            <a href="mailto:email@gmail.com" className="nav-links">
               akonev27@gmail.com
             </a>
           </p>
           <p className="text-page-route">
             <FaLinkedin className="contact-icon" />
-            Linkedin
+            <a className="nav-links"> Linkedin</a>
           </p>
           <p className="text-page-route">
             <FaGithub className="contact-icon" />
-            Github
+            <a className="nav-links">Github</a>
           </p>
         </Card>
       </Col>
