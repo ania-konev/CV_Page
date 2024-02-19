@@ -12,7 +12,10 @@ const ProjectPage: React.FC = () => {
           <p className="tech-page-route">(Python)</p>
           <p className="text-page-route">
             2.
-            <a className="nav-links">
+            <a
+              href="https://weather-app-anias-projects-9ef58225.vercel.app/"
+              className="nav-links"
+            >
               <b>Weather App</b>
             </a>{" "}
             - website to check weather conditions in different cities around the
@@ -23,7 +26,10 @@ const ProjectPage: React.FC = () => {
           </p>
           <p className="text-page-route">
             3.{" "}
-            <a className="nav-links">
+            <a
+              href="https://ania-konev.github.io/ToDoList/"
+              className="nav-links"
+            >
               <b>To do list</b>
             </a>{" "}
             - website for creating a to-do lists depending on your goal, e.g.
@@ -34,7 +40,10 @@ const ProjectPage: React.FC = () => {
           </p>
           <p className="text-page-route">
             4.{" "}
-            <a className="nav-links">
+            <a
+              href="https://github.com/ania-konev/Sudoku"
+              className="nav-links"
+            >
               <b>Sudoku</b>{" "}
             </a>
             - simple Sudoku game.

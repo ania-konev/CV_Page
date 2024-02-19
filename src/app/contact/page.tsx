@@ -22,11 +22,19 @@ const CoursePage: React.FC = () => {
           </p>
           <p className="text-page-route">
             <FaLinkedin className="contact-icon" />
-            <a className="nav-links"> Linkedin</a>
+            <a
+              href="https://www.linkedin.com/in/anna-konefa%C5%82-8962182b4/"
+              className="nav-links"
+            >
+              {" "}
+              Linkedin
+            </a>
           </p>
           <p className="text-page-route">
             <FaGithub className="contact-icon" />
-            <a className="nav-links">Github</a>
+            <a href="https://github.com/ania-konev" className="nav-links">
+              Github
+            </a>
           </p>
         </Card>
       </Col>
