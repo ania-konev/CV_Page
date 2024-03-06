@@ -3,7 +3,7 @@
  */
 const nextConfig = {
   output: "export",
-  // basePath: "/CV_Page",
+  basePath: "/CV_Page",
 };
 
 module.exports = nextConfig;
