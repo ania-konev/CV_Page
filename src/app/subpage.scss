@@ -1,0 +1,109 @@
+@mixin skill-logo-subpage($color, $bg-color, $margin-top) {
+  font-size: 5rem;
+  color: $color;
+  background-color: $bg-color;
+  margin-right: 2%;
+  margin-top: $margin-top;
+  border: solid black;
+  border-radius: 15%;
+}
+
+body {
+  .subpage-card {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+    height: 80%;
+    padding: 0;
+    background-color: #5f9ea099;
+    color: white;
+    h1 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 3rem;
+      margin: 0;
+    }
+    em {
+      font-size: 0.9rem;
+    }
+    li {
+      text-align: left;
+      font-size: 1.1rem;
+      padding: 8px;
+    }
+  }
+
+  .centered-content {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 8px;
+  }
+
+  .emphasized-tech {
+    display: inline;
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 255, 149, 0.859);
+    text-shadow: rgb(0, 149, 255) 2px 2px 2px;
+  }
+
+  .contact-logo {
+    font-size: xx-large;
+    margin-right: 2%;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  .nav-links {
+    color: blue;
+    text-decoration: underline;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .js-logo-subpage {
+    @include skill-logo-subpage(#f7df1e, black, 0);
+  }
+
+  .html-logo-subpage {
+    @include skill-logo-subpage(white, #e54c21, 0);
+  }
+
+  .css-logo-subpage {
+    @include skill-logo-subpage(white, #004ce8, 0);
+  }
+
+  .react-logo-subpage {
+    @include skill-logo-subpage(#01dafe, #222222, 0);
+  }
+
+  .ts-logo-subpage {
+    @include skill-logo-subpage(#007bcd, white, 4%);
+  }
+
+  .sass-logo-subpage {
+    @include skill-logo-subpage(#ce679a, white, 4%);
+  }
+
+  .git-logo-subpage {
+    @include skill-logo-subpage(#f05030, white, 4%);
+  }
+
+  .next-logo-subpage {
+    @include skill-logo-subpage(black, white, 4%);
+  }
+
+  .svg-logo-subpage {
+    width: 80px;
+    height: 80px;
+    margin-right: 2%;
+    margin-top: 4%;
+    border: solid black;
+    background-color: white;
+    border-radius: 15%;
+  }
+}

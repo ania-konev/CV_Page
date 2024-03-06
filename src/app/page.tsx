@@ -1,13 +1,13 @@
-"use client";
-
 import { Col, Row, ConfigProvider } from "antd";
 import "animate.css";
-import AboutMeNote from "../components/aboutMeNote";
+import AboutMeNote from "../components/aboutMeNote/aboutMeNote";
 import ContactButton from "../components/contactButton";
 import CourseButton from "../components/courseButton";
 import ProjectButton from "../components/projectButton";
 import PublicationsButton from "../components/publicationButton";
 import SkillButton from "../components/skillButton";
+import variables from "./constants.module.scss";
+import column from "./page.module.scss";
 
 const HomePage: React.FC = () => {
   return (
@@ -15,27 +15,27 @@ const HomePage: React.FC = () => {
       theme={{
         components: {
           Button: {
-            defaultHoverBg: "#5f9ea099",
-            defaultHoverColor: "#ffffff",
+            defaultHoverBg: `${variables.defaultHoverBg}`,
+            defaultHoverColor: `${variables.defaultHoverColor}`,
           },
         },
         token: {
-          colorBgContainer: "#5f9ea0cc",
-          colorText: "#ffffff",
+          colorBgContainer: `${variables.colorBgContainer}`,
+          colorText: `${variables.colorTex}`,
         },
       }}
     >
-      <Row className="layout" gutter={[0, 0]}>
-        <Col className="columns" span={7}>
+      <Row className={column["layout"]}>
+        <Col className={column["column"]} span={7}>
           <SkillButton />
           <ProjectButton />
         </Col>
-        <Col className="about-me-column" span={10}>
+        <Col className={column["about-me-column"]} span={10}>
           <AboutMeNote />
           <ContactButton />
         </Col>
 
-        <Col className="columns" span={7}>
+        <Col className={column["column"]} span={7}>
           <CourseButton />
           <PublicationsButton />
         </Col>

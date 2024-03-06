@@ -1,25 +1,24 @@
-import { Col, Button } from "antd";
+import { Button } from "antd";
 import { SiJavascript } from "react-icons/si";
 import { RiHtml5Line } from "react-icons/ri";
 import Link from "next/link";
+import styles from "./common.module.scss";
 
 const SkillButton = () => {
   return (
     <div>
       <Link href="/skills">
-        <Button className="button-element animate__animated animate__jackInTheBox">
-          <Col span={24} className="button-title">
-            Skills
-          </Col>
-          <Col span={24}>
-            <SiJavascript className="JS-icon" />
-          </Col>
-          <Col span={24}>
-            <RiHtml5Line className="html-icon" />
-          </Col>
-          <Col span={24} className="hover-tip-note">
-            Click to expand!
-          </Col>
+        <Button
+          className={`${styles["button-element"]} animate__animated animate__jackInTheBox`}
+        >
+          <div className={styles["button-title"]}>Skills</div>
+          <div>
+            <SiJavascript className={styles["jS-logo"]} />
+          </div>
+          <div>
+            <RiHtml5Line className={styles["html-logo"]} />
+          </div>
+          <div className={styles["hover-tip-note"]}>Click to expand!</div>
         </Button>
       </Link>
     </div>

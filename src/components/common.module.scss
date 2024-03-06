@@ -1,0 +1,50 @@
+@mixin skill-logo($bg-color, $font-size, $opacity) {
+  background-color: $bg-color;
+  font-size: $font-size;
+  opacity: $opacity;
+}
+
+body {
+  .button-title {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .button-element {
+    margin-top: 25%;
+    width: 200px;
+    height: 100px;
+    border: none;
+    &:hover {
+      width: 250px;
+      height: 150px;
+      .hover-tip-note {
+        display: contents;
+        font-size: large;
+      }
+    }
+  }
+
+  .contact-button {
+    margin-top: 10%;
+  }
+
+  .hover-tip-note {
+    display: none;
+  }
+
+  .about-me-note {
+    font-size: large;
+  }
+
+  .html-logo {
+    @include skill-logo(#e54c21, x-large, 0.1);
+  }
+
+  .jS-logo {
+    @include skill-logo(black, x-large, 0.3);
+    color: #f7df1e;
+  }
+}

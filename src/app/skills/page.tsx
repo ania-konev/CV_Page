@@ -1,4 +1,4 @@
-import { Col, Row, Card } from "antd";
+import { Card } from "antd";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaHtml5 } from "react-icons/fa6";
 import { IoLogoCss3 } from "react-icons/io";
@@ -10,36 +10,32 @@ import { SiNextdotjs } from "react-icons/si";
 
 const CoursePage: React.FC = () => {
   return (
-    <Row className="layout" gutter={[0, 0]}>
-      <Col span={24}>
-        <Card bordered={false} className="route-card">
-          <h1>Skills</h1>
-          <p className="text-page-route">
-            <IoLogoJavascript className="JS-logo-route" />
-            <FaHtml5 className="HTML-logo-route" />
-            <IoLogoCss3 className="CSS-logo-route" />
-            <FaReact className="React-logo-route" />
-            <br />
-            <img
-              src="ant-design.svg"
-              alt="Ant-design logo"
-              className="AD-logo-route"
-            ></img>
-            <SiTypescript className="TS-logo-route" />
-            <FaSass className="Sass-logo-route" />
-            <FaGitAlt className="Git-logo-route" />
-            <br />
-            <img
-              src="python.svg"
-              alt="Python logo"
-              className="Python-logo-route"
-            ></img>
+    <Card bordered={false} className="subpage-card">
+      <h1>Skills</h1>
+      <p className="centered-content">
+        <IoLogoJavascript className="js-logo-subpage" />
+        <FaHtml5 className="html-logo-subpage" />
+        <IoLogoCss3 className="css-logo-subpage" />
+        <FaReact className="react-logo-subpage" />
+        <br />
+        <img
+          src="ant-design.svg"
+          alt="Ant design logo"
+          className="svg-logo-subpage"
+        ></img>
+        <SiTypescript className="ts-logo-subpage" />
+        <FaSass className="sass-logo-subpage" />
+        <FaGitAlt className="git-logo-subpage" />
+        <br />
+        <img
+          src="python.svg"
+          alt="Python logo"
+          className="svg-logo-subpage"
+        ></img>
 
-            <SiNextdotjs className="Next-logo-route" />
-          </p>
-        </Card>
-      </Col>
-    </Row>
+        <SiNextdotjs className="next-logo-subpage" />
+      </p>
+    </Card>
   );
 };
 

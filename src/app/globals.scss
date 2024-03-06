@@ -1,5 +1,4 @@
-@use "component.scss";
-@use "route.scss";
+@use "subpage.scss";
 
 $bg-image: url("../../public/gory-photo.jpg");
 
@@ -11,7 +10,15 @@ body {
   background-image: $bg-image;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   margin: 0;
+  position: absolute;
+  .animate__animated.animate__jackInTheBox {
+    animation-duration: 6s;
+  }
+
+  .animate__animated.animate__heartBeat {
+    animation-delay: 4s;
+  }
 }
