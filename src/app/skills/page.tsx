@@ -32,7 +32,6 @@ const CoursePage: React.FC = () => {
           alt="Python logo"
           className="svg-logo-subpage"
         ></img>
-
         <SiNextdotjs className="next-logo-subpage" />
       </p>
     </Card>

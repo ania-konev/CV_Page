@@ -10,7 +10,7 @@ const CoursePage: React.FC = () => {
             href="https://www.udemy.com/course/master-next-js-for-busy-developers/"
             className="nav-links"
           >
-            "Master Next JS 13 - 2023 - For Busy Developers".
+            &quot;Master Next JS 13 - 2023 - For Busy Developers&quot;.
           </a>
           <em> (Udemy Course)</em>
         </li>
@@ -19,13 +19,13 @@ const CoursePage: React.FC = () => {
             href="https://www.udemy.com/course/sass-for-the-beginners/"
             className="nav-links"
           >
-            "Sass for the beginners Course - Let's go ahead".
+            &quot;Sass for the beginners Course - Let's go ahead&quot;.
           </a>
           <em> (Udemy Course)</em>
         </li>
         <li>
           <a href="https://scrimba.com/learn/typescript" className="nav-links">
-            "Learn Typescript level intermediate".
+            &quot;Learn Typescript level intermediate&quot;.
           </a>
           <em> (Scrimba Course)</em>
         </li>
@@ -34,7 +34,7 @@ const CoursePage: React.FC = () => {
             href="https://www.udemy.com/course/build-your-first-react-js-application/"
             className="nav-links"
           >
-            "Build your first React JS Application".
+            &quot;Build your first React JS Application&quot;.
           </a>
           <em> (Udemy Course)</em>
         </li>
@@ -43,18 +43,18 @@ const CoursePage: React.FC = () => {
             href="https://www.udemy.com/course/html-css-certification-course-for-beginners/"
             className="nav-links"
           >
-            "HTML & CSS - Certification Course for Beginners".
+            &quot;HTML & CSS - Certification Course for Beginners&quot;.
           </a>
           <em> (Udemy Course)</em>
         </li>
         <li>
           <a href="https://mimo.org/" className="nav-links">
-            "SQL, JS, HTML, CSS, Web Development".
+            &quot;SQL, JS, HTML, CSS, Web Development&quot;.
           </a>
           <em> (Mimo Course)</em>
         </li>
         <li>
-          "Introduction to programming".
+          &quot;Introduction to programming&quot;.
           <em> (Workshops)</em>
         </li>
         <li>
@@ -62,7 +62,7 @@ const CoursePage: React.FC = () => {
             href="https://karierawfarmacji.pl/kurs/clinical-trial-associate/"
             className="nav-links"
           >
-            "Clinical Trial Associate".
+            &quot;Clinical Trial Associate&quot;.
           </a>
           <em> (Career In Pharmacy Course)</em>
         </li>
