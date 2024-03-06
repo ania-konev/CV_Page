@@ -7,6 +7,7 @@ import { SiTypescript } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import Image from "next/image";
 
 const CoursePage: React.FC = () => {
   return (
@@ -18,20 +19,24 @@ const CoursePage: React.FC = () => {
         <IoLogoCss3 className="css-logo-subpage" />
         <FaReact className="react-logo-subpage" />
         <br />
-        <img
+        <Image
           src="ant-design.svg"
           alt="Ant design logo"
           className="svg-logo-subpage"
-        ></img>
+          width={80}
+          height={80}
+        />
         <SiTypescript className="ts-logo-subpage" />
         <FaSass className="sass-logo-subpage" />
         <FaGitAlt className="git-logo-subpage" />
         <br />
-        <img
+        <Image
           src="python.svg"
           alt="Python logo"
           className="svg-logo-subpage"
-        ></img>
+          width={80}
+          height={80}
+        />
         <SiNextdotjs className="next-logo-subpage" />
       </p>
     </Card>
