@@ -19,7 +19,7 @@ const CoursePage: React.FC = () => {
             href="https://www.udemy.com/course/sass-for-the-beginners/"
             className="nav-links"
           >
-            &quot;Sass for the beginners Course - Let's go ahead&quot;.
+            &quot;Sass for the beginners Course - Let&apos;s go ahead&quot;.
           </a>
           <em> (Udemy Course)</em>
         </li>
