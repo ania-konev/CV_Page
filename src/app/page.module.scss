@@ -1,0 +1,17 @@
+@mixin styled-column($justify, $margin-top) {
+  display: flex;
+  flex-flow: column;
+  justify-content: $justify;
+  text-align: center;
+  margin-top: $margin-top;
+}
+
+body {
+  .column {
+    @include styled-column(flex-start, 5%);
+  }
+
+  .about-me-column {
+    @include styled-column(center, 5%);
+  }
+}
