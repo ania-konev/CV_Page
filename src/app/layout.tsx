@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Image
+          src="/CV_Page/gory-photo.jpg"
+          alt="Mountains background"
+          className="background"
+          width={0}
+          height={0}
+          unoptimized
+        />
         <AntdRegistry>{children}</AntdRegistry>
       </body>
     </html>

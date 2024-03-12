@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
         },
       }}
     >
-      <Row className={column["layout"]}>
+      <Row>
         <Col className={column["column"]} span={7}>
           <SkillButton />
           <ProjectButton />
