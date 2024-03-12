@@ -17,6 +17,7 @@ body {
     padding: 0;
     background-color: #5f9ea099;
     color: white;
+    block-size: fit-content;
     h1 {
       text-align: center;
       font-weight: bold;
@@ -98,8 +99,6 @@ body {
   }
 
   .svg-logo-subpage {
-    // width: 80px;
-    // height: 80px;
     margin-right: 2%;
     margin-top: 4%;
     border: solid black;
