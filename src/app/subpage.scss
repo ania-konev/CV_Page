@@ -97,6 +97,9 @@ body {
   .next-logo-subpage {
     @include skill-logo-subpage(black, white, 4%);
   }
+  .angular-logo-subpage {
+    @include skill-logo-subpage(#de002d, white, 0);
+  }
 
   .svg-logo-subpage {
     margin-right: 2%;

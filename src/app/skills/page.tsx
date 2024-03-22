@@ -7,6 +7,7 @@ import { SiTypescript } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
 import Image from "next/image";
 
 const CoursePage: React.FC = () => {
@@ -38,6 +39,7 @@ const CoursePage: React.FC = () => {
           height={80}
         />
         <SiNextdotjs className="next-logo-subpage" />
+        <FaAngular className="angular-logo-subpage" />
       </p>
     </Card>
   );
