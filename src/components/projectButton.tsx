@@ -14,7 +14,7 @@ const ProjectButton = () => {
           <div className={styles["button-title"]}>Projects</div>
           <div>
             <LinearGradient gradient={["to right", `${white}, ${lightGrey}`]}>
-              1. Tags browser - a UI for the
+              1. Tags browser - a UI for the  
             </LinearGradient>
           </div>
           <div>
