@@ -14,14 +14,14 @@ const ProjectButton = () => {
           <div className={styles["button-title"]}>Projects</div>
           <div>
             <LinearGradient gradient={["to right", `${white}, ${lightGrey}`]}>
-              1. Weather App - website to
+              1. Tags browser - a UI for the
             </LinearGradient>
           </div>
           <div>
             <LinearGradient
               gradient={["to right", `${lightGrey}, ${darkGrey}`]}
             >
-              2. To do list - website for
+              2. Weather App - website to
             </LinearGradient>
           </div>
           <div className={styles["hover-tip-note"]}>Click to expand!</div>

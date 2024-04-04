@@ -8,6 +8,8 @@ import { FaSass } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
+import { SiStorybook } from "react-icons/si";
 import Image from "next/image";
 
 const CoursePage: React.FC = () => {
@@ -19,6 +21,7 @@ const CoursePage: React.FC = () => {
         <FaHtml5 className="html-logo-subpage" />
         <IoLogoCss3 className="css-logo-subpage" />
         <FaReact className="react-logo-subpage" />
+        <SiRedux className="redux-logo-subpage" />
         <br />
         <Image
           src="ant-design.svg"
@@ -30,7 +33,10 @@ const CoursePage: React.FC = () => {
         <SiTypescript className="ts-logo-subpage" />
         <FaSass className="sass-logo-subpage" />
         <FaGitAlt className="git-logo-subpage" />
+        <SiNextdotjs className="next-logo-subpage" />
         <br />
+        <FaAngular className="angular-logo-subpage" />
+        <SiStorybook className="storybook-logo-subpage"></SiStorybook>
         <Image
           src="python.svg"
           alt="Python logo"
@@ -38,8 +44,6 @@ const CoursePage: React.FC = () => {
           width={80}
           height={80}
         />
-        <SiNextdotjs className="next-logo-subpage" />
-        <FaAngular className="angular-logo-subpage" />
       </p>
     </Card>
   );

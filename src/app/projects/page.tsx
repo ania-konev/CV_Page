@@ -9,6 +9,21 @@ const ProjectPage: React.FC = () => {
           <b>This CV page</b> - a shortened, overview version of my CV.
           <p className="emphasized-tech"> (Python)</p>
         </li>
+
+        <li>
+          <a
+            href="https://github.com/ania-konev/tags-browser"
+            className="nav-links"
+          >
+            <b>Tags browser</b>
+          </a>{" "}
+          - a UI for the tags browser provided by API.
+          <p className="emphasized-tech">
+            <br></br>
+            (Typescript, HTML, Sass, React, Redux, Ant Design, Next.js,
+            Storybook)
+          </p>
+        </li>
         <li>
           <a
             href="https://weather-app-anias-projects-9ef58225.vercel.app/"

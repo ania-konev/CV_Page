@@ -7,6 +7,31 @@ const CoursePage: React.FC = () => {
       <ol>
         <li>
           <a
+            href="https://www.udemy.com/course/angular-for-beginners-course/"
+            className="nav-links"
+          >
+            &quot;Angular 17 for Beginners Course&quot;
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.udemy.com/course/angular-free-masterclass-part-one/"
+            className="nav-links"
+          >
+            &quot;Angular Masterclass - COVID-19 Tracker App Part 1-3.&quot;
+          </a>
+          <em> (Udemy Course)</em>
+        </li>
+        <li>
+          <a
+            href="https://www.udemy.com/course/master-next-js-for-busy-developers/"
+            className="nav-links"
+          >
+            &quot;Master Next JS 13 - 2023 - For Busy Developers&quot;.
+          </a>
+          <em> (Udemy Course)</em>
+        </li>
+        <li>
+          <a
             href="https://www.udemy.com/course/master-next-js-for-busy-developers/"
             className="nav-links"
           >
@@ -54,10 +79,6 @@ const CoursePage: React.FC = () => {
           <em> (Mimo Course)</em>
         </li>
         <li>
-          &quot;Introduction to programming&quot;.
-          <em> (Workshops)</em>
-        </li>
-        <li>
           <a
             href="https://karierawfarmacji.pl/kurs/clinical-trial-associate/"
             className="nav-links"
@@ -67,8 +88,9 @@ const CoursePage: React.FC = () => {
           <em> (Career In Pharmacy Course)</em>
         </li>
         <li>
-          <b>Other courses:</b> Work organization and time management; Advanced
-          statistics; Organization and management of a research laboratory.
+          <b>Other courses:</b> Introduction to programming; Work organization
+          and time management; Advanced statistics; Organization and management
+          of a research laboratory.
         </li>
       </ol>
     </Card>
