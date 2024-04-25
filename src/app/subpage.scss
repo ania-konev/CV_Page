@@ -105,6 +105,10 @@ body {
     @include skill-logo-subpage(#de002d, white, 0);
   }
 
+  .bootstrap-logo-subpage {
+    @include skill-logo-subpage(#8211f5, white, 0);
+  }
+
   .storybook-logo-subpage {
     @include skill-logo-subpage(#ff4d89, white, 0);
   }

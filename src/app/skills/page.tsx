@@ -10,6 +10,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiStorybook } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 import Image from "next/image";
 
 const CoursePage: React.FC = () => {
@@ -36,7 +37,15 @@ const CoursePage: React.FC = () => {
         <SiNextdotjs className="next-logo-subpage" />
         <br />
         <FaAngular className="angular-logo-subpage" />
+        <FaBootstrap className="bootstrap-logo-subpage" />
         <SiStorybook className="storybook-logo-subpage"></SiStorybook>
+        <Image
+          src="rxjs.svg"
+          alt="RxJS logo"
+          className="svg-logo-subpage"
+          width={80}
+          height={80}
+        />
         <Image
           src="python.svg"
           alt="Python logo"
