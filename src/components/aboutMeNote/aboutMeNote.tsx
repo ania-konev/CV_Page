@@ -13,7 +13,7 @@ const AboutMeNote = () => {
         University&nbsp;of&nbsp;Warsaw.
         <div>
           From year and a half, I have been self-educating myself to become a
-          Junior&nbsp;JS&nbsp;Frontend&nbsp;Developer.
+          Junior&nbsp;Frontend&nbsp;Developer.
         </div>{" "}
       </div>
       <div className={styles["instructions-note"]}>

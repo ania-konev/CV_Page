@@ -7,19 +7,29 @@ const CoursePage: React.FC = () => {
       <ol>
         <li>
           <a
-            href="https://www.udemy.com/course/angular-for-beginners-course/"
+            href="https://www.sololearn.com/en/learn/courses/java-introduction"
             className="nav-links"
           >
-            &quot;Angular 17 for Beginners Course&quot;
+            &quot;Java - Certification Course&quot;.
+          </a>
+          <em> (Sololearn Course)</em>
+        </li>
+
+        <li>
+          <a
+            href="https://www.sololearn.com/en/learn/courses/angular"
+            className="nav-links"
+          >
+            &quot;Angular - Certification Course&quot;
           </a>{" "}
           and{" "}
           <a
-            href="https://www.udemy.com/course/angular-free-masterclass-part-one/"
+            href="https://www.udemy.com/course/angular-for-beginners-course/"
             className="nav-links"
           >
-            &quot;Angular Masterclass - COVID-19 Tracker App Part 1-3.&quot;
+            &quot;Angular 17 for Beginners Course.&quot;
           </a>
-          <em> (Udemy Course)</em>
+          <em> (Sololearn/Udemy Course)</em>
         </li>
         <li>
           <a

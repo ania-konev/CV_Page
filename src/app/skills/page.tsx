@@ -53,6 +53,14 @@ const CoursePage: React.FC = () => {
           width={80}
           height={80}
         />
+        <br />
+        <Image
+          src="java.svg"
+          alt="Java logo"
+          className="svg-logo-subpage"
+          width={80}
+          height={80}
+        />
       </p>
     </Card>
   );

@@ -14,6 +14,20 @@ const ProjectPage: React.FC = () => {
         </li>
 
         <li>
+          <a
+            href="https://github.com/ania-konev/covid19-tracker-app"
+            className="nav-links"
+          >
+            <b>Covid-19 tracker app </b>
+          </a>{" "}
+          - app to track cases of Covid-19 provided by API.
+          <p className="emphasized-tech">
+            <br></br>
+            (Typescript, Angular, HTML, Sass, RxJS, Bootstrap)
+          </p>
+        </li>
+
+        <li>
           <a href="https://tags-browser-psi.vercel.app/" className="nav-links">
             <b>Tags browser</b>
           </a>{" "}
@@ -29,7 +43,7 @@ const ProjectPage: React.FC = () => {
             href="https://weather-app-anias-projects-9ef58225.vercel.app/"
             className="nav-links"
           >
-            <b>Weather App</b>
+            <b>Weather app</b>
           </a>{" "}
           - a website to check weather conditions in different cities around the
           world.
