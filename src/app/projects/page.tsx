@@ -15,7 +15,21 @@ const ProjectPage: React.FC = () => {
 
         <li>
           <a
-            href="https://github.com/ania-konev/covid19-tracker-app"
+            href="https://github.com/ania-konev/github-consumer"
+            className="nav-links"
+          >
+            <b>GitHub API Consumer </b>
+          </a>{" "}
+          - app to display a list of GitHub user repos.
+          <p className="emphasized-tech">
+            <br></br>
+            (Java, Spring Boot, Gradle, WireMock, WebClient)
+          </p>
+        </li>
+
+        <li>
+          <a
+            href="https://ania-konev.github.io/covid19-tracker-app/summary"
             className="nav-links"
           >
             <b>Covid-19 tracker app </b>

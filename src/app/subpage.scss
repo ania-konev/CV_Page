@@ -94,6 +94,10 @@ body {
     @include skill-logo-subpage(#ce679a, white, 4%);
   }
 
+  .spring-boot-logo-subpage {
+    @include skill-logo-subpage(#6db33f, white, 4%);
+  }
+
   .git-logo-subpage {
     @include skill-logo-subpage(#f05030, white, 4%);
   }

@@ -11,6 +11,7 @@ import { FaAngular } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiStorybook } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
+import { BiLogoSpringBoot } from "react-icons/bi";
 import Image from "next/image";
 
 const CoursePage: React.FC = () => {
@@ -61,6 +62,7 @@ const CoursePage: React.FC = () => {
           width={80}
           height={80}
         />
+        <BiLogoSpringBoot className="spring-boot-logo-subpage" />
       </p>
     </Card>
   );
