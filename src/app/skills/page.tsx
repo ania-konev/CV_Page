@@ -12,6 +12,8 @@ import { SiRedux } from "react-icons/si";
 import { SiStorybook } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { BiLogoSpringBoot } from "react-icons/bi";
+import { DiRuby } from "react-icons/di";
+import { SiRubyonrails } from "react-icons/si";
 import Image from "next/image";
 
 const CoursePage: React.FC = () => {
@@ -63,6 +65,8 @@ const CoursePage: React.FC = () => {
           height={80}
         />
         <BiLogoSpringBoot className="spring-boot-logo-subpage" />
+        <DiRuby className="ruby-logo-subpage" />
+        <SiRubyonrails className="ruby-on-rails-logo-subpage" />
       </p>
     </Card>
   );

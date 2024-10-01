@@ -15,6 +15,21 @@ const ProjectPage: React.FC = () => {
 
         <li>
           <a
+            href="https://github.com/ania-konev/wiki-app"
+            className="nav-links"
+          >
+            <b>Wiki app </b>
+          </a>{" "}
+          - a simple web app to allow users to create, edit, browse articles in
+          a wiki format.
+          <p className="emphasized-tech">
+            <br></br>
+            (Ruby, Rails, HTML, Javascript, Sass)
+          </p>
+        </li>
+
+        <li>
+          <a
             href="https://github.com/ania-konev/github-consumer"
             className="nav-links"
           >

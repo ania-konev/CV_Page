@@ -117,6 +117,14 @@ body {
     @include skill-logo-subpage(#ff4d89, white, 0);
   }
 
+  .ruby-logo-subpage {
+    @include skill-logo-subpage(#ba1609, white, 0);
+  }
+
+  .ruby-on-rails-logo-subpage {
+    @include skill-logo-subpage(#ce0808, white, 0);
+  }
+
   .svg-logo-subpage {
     margin-right: 2%;
     margin-top: 4%;
